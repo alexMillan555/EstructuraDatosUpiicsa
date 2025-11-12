@@ -1,4 +1,4 @@
-/*Pila-listas-ligadas.cpp
+/*PILA-LSL.cpp
 	Programa que implementa una Pila utilizando listas ligadas
 	Transcibrió: Alejandro Millán Jiménez
 	Compiló: Alejandro Millán Jiménez

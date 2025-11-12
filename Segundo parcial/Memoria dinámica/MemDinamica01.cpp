@@ -28,5 +28,6 @@ int main()
 	delete(q);
 	delete(r);
 	
+	system("pause");
 	return 0;
 }

@@ -9,6 +9,7 @@
 	
 #include<iostream>
 #include<conio.h>
+#include<stdlib.h>
 using namespace std;
 struct dir
 {
@@ -31,5 +32,6 @@ int main()
 	p++;
 	cout<<"Si se incrementa 1 a p, ahora vale: "<<p<<"\n"<<endl;
 	delete(p);
+	system("pause");
 	return 0;
 }

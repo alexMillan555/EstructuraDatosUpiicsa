@@ -32,5 +32,8 @@ int main()
 	p++;
 	printf("Si se incrementara en 1 a p: %p en dec: %d\n",p,p);
 	free(p);
+	
+	printf("\n");
+	system("pause");
 	return 0;
 }
