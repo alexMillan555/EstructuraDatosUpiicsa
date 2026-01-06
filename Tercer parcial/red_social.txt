@@ -1,0 +1,13 @@
+6
+Yo (Desarrollador)
+Ana (Jefa de Proyecto)
+Luis (Gerente de Area)
+Pepe (Director Operativo)
+Jorge (Director General)
+Elon Musk (CEO)
+0 1 1 0 0 0
+1 0 0 1 0 0
+1 0 0 0 1 0
+0 1 0 0 0 1
+0 0 1 0 0 0
+0 0 0 1 0 0
