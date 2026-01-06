@@ -34,6 +34,9 @@ int main()
 	for(i=0; i<NCAD; i++)
 		free(cad[i]);
 		
+	printf("\n");
+	system("pause");
+		
 	return 0;
 }
 /*
