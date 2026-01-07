@@ -21,7 +21,7 @@ struct NodoAmigo
 // 2. ESTRUCTURA PARA EL USUARIO
 struct Usuario 
 {
-    char nombre[60]; // [CAMBIO] Aumentamos de 30 a 60 para que quepan los cargos
+    char nombre[60]; // Aumentamos de 30 a 60 para que quepan los cargos
 };
 
 // 3. ESTRUCTURA DE LA RED SOCIAL (GRAFO)
@@ -34,7 +34,7 @@ struct RedSocial
     int distancia[MAX_USUARIOS];
 };
 
-// --- AQUÍ ESTÁ LA COLA MANUAL (SIN <QUEUE>) ---
+// --- AQUÍ ESTÁ LA COLA ---
 
 struct NodoCola 
 {
@@ -157,7 +157,7 @@ bool cargarDesdeArchivo(RedSocial* red, const char* nombreArchivo)
 
     // 2. Leer nombres de usuarios
     for (int i = 0; i < red->totalUsuarios; i++)     
-        archivo.getline(red->infoUsuarios[i].nombre, 60); // [CAMBIO] Aquí también ponemos 60    
+        archivo.getline(red->infoUsuarios[i].nombre, 60); // Aquí también ponemos 60    
 
     // 3. Leer la MATRIZ DE ADYACENCIA y convertirla a LISTA
     int conexion;
@@ -228,10 +228,10 @@ void generarArchivoEjemplo()
         
         // [CAMBIO] Aquí ponemos los Nombres + Cargos
         archivo << "Yo (Desarrollador)\n";        // ID 0
-        archivo << "Ana (Jefa de Proyecto)\n";       // ID 1
-        archivo << "Luis (Gerente de Area)\n";       // ID 2
-        archivo << "Pepe (Director Operativo)\n";    // ID 3
-        archivo << "Jorge (Director General)\n";      // ID 4
+        archivo << "Ana (Gerente de TI)\n";       // ID 1
+        archivo << "Jorge (Lider de proyecto)\n";       // ID 2
+        archivo << "Berna (Director de area)\n";    // ID 3
+        archivo << "Luis (Director general)\n";      // ID 4
         archivo << "Elon Musk (CEO)\n";              // ID 5
 
         // Matriz de conexiones (Jerarquía + Atajos)
@@ -255,7 +255,7 @@ void generarArchivoEjemplo()
 }
 
 // ==========================================
-//    ALGORITMO BFS VISUAL (SIN LIBRERÍA)
+//    ALGORITMO BFS VISUAL
 // ==========================================
 
 int bfsVisual(RedSocial* red, int idOrigen, int idDestino) 

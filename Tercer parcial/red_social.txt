@@ -1,9 +1,9 @@
 6
 Yo (Desarrollador)
-Ana (Jefa de Proyecto)
-Luis (Gerente de Area)
-Pepe (Director Operativo)
-Jorge (Director General)
+Ana (Gerente de TI)
+Jorge (Lider de proyecto)
+Berna (Director de area)
+Luis (Director general)
 Elon Musk (CEO)
 0 1 1 0 0 0
 1 0 0 1 0 0
